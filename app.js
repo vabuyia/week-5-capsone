@@ -5,7 +5,6 @@ const speakers = [
     desctiption: 'Event Convener, Microverse Student since Oct 2021',
     photo: 'images/VincentAbuya.jpeg',
   },
-
   {
     name: 'Mark Zuckerberg',
     professional: 'Chief Executive Officer of Facebook',
@@ -13,7 +12,6 @@ const speakers = [
       'Mark Elliot Zuckerberg is an American media magnate, internet entrepreneur, and philanthropist.',
     photo: 'images/MarkZuk.png',
   },
-
   {
     name: 'Jack Dorsey',
     professional: 'CEO of Twitter Inc.',
@@ -21,7 +19,6 @@ const speakers = [
       'Jack Patrick Dorsey is an American billionaire technology entrepreneur and philanthropist',
     photo: 'images/JackDorsey.png',
   },
-
   {
     name: 'Pierre Omidyar',
     professional: 'Chairman of eBay',
@@ -29,7 +26,6 @@ const speakers = [
       'Pierre Morad Omidyar is a French-American billionaire technology entrepreneur, software engineer',
     photo: 'images/PierreOmidyar.png',
   },
-
   {
     name: 'Andy Jassy',
     professional: 'CEO of Amazon',
@@ -37,7 +33,6 @@ const speakers = [
       'Andrew R. Jassy is an American businessman who has been the president and CEO of Amazon since July 5, 2021.',
     photo: 'images/AndyJassy.png',
   },
-  
   {
     name: 'Sundar Pichai',
     professional: 'Chief Executive Officer of Google',

@@ -12,13 +12,15 @@ const speakers = [
       'Mark Elliot Zuckerberg is an American media magnate, internet entrepreneur, and philanthropist.',
     photo: 'images/MarkZuk.png',
   },
+
   {
     name: 'Jack Dorsey',
     professional: 'CEO of Twitter Inc.',
     desctiption:
-      'Jack Patrick Dorsey is an American billionaire technology entrepreneur and philanthropist',
+      'Jack Patrick Dorsey is an entrepreneur and philanthropist',
     photo: 'images/JackDorsey.png',
   },
+
   {
     name: 'Pierre Omidyar',
     professional: 'Chairman of eBay',
@@ -40,45 +42,45 @@ const speakers = [
       'Pichai Sundararajan, better known as Sundar Pichai, is an Indian-American business executive. He is the chief executive officer of Alphabet Inc. and its subsidiary Google. Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.',
     photo: 'images/SundarPichai.png',
   },
-];
+]
 
 // eslint-disable-next-line no-plusplus
 for (let i = 0; i < speakers.length; i++) {
-  const cardsContainer = document.createElement('div');
-  const container = document.createElement('div');
-  const cardsImage = document.createElement('div');
-  const chess = document.createElement('img');
-  const photo = document.createElement('img');
-  const cardsInformation = document.createElement('div');
-  const cardsBody = document.createElement('div');
-  const fullName = document.createElement('h3');
-  const title = document.createElement('h5');
-  const description = document.createElement('small');
+  const cardsContainer = document.createElement('div')
+  const container = document.createElement('div')
+  const cardsImage = document.createElement('div')
+  const chess = document.createElement('img')
+  const photo = document.createElement('img')
+  const cardsInformation = document.createElement('div')
+  const cardsBody = document.createElement('div')
+  const fullName = document.createElement('h3')
+  const title = document.createElement('h5')
+  const description = document.createElement('small')
 
-  cardsContainer.appendChild(container);
-  container.appendChild(cardsImage);
-  container.appendChild(cardsInformation);
-  cardsImage.appendChild(chess);
-  cardsImage.appendChild(photo);
-  cardsInformation.appendChild(cardsBody);
-  cardsBody.appendChild(fullName);
-  cardsBody.appendChild(title);
-  cardsBody.appendChild(description);
+  cardsContainer.appendChild(container)
+  container.appendChild(cardsImage)
+  container.appendChild(cardsInformation)
+  cardsImage.appendChild(chess)
+  cardsImage.appendChild(photo)
+  cardsInformation.appendChild(cardsBody)
+  cardsBody.appendChild(fullName)
+  cardsBody.appendChild(title)
+  cardsBody.appendChild(description)
 
-  cardsContainer.className = 'cards-container';
-  container.className = 'container';
-  cardsImage.className = 'cards-images';
-  chess.className = 'image-inside-cards1';
-  photo.className = 'image-inside-cards2';
-  cardsInformation.className = 'cards-info';
-  cardsBody.className = 'cards-body';
-  fullName.className = 'cards-name';
-  title.className = 'cards-title';
-  description.className = 'cards-small';
+  cardsContainer.className = 'cards-container'
+  container.className = 'container'
+  cardsImage.className = 'cards-images'
+  chess.className = 'image-inside-cards1'
+  photo.className = 'image-inside-cards2'
+  cardsInformation.className = 'cards-info'
+  cardsBody.className = 'cards-body'
+  fullName.className = 'cards-name'
+  title.className = 'cards-title'
+  description.className = 'cards-small'
 
-  document.querySelector('.speakers').appendChild(cardsContainer);
-  photo.src = speakers[i].photo;
-  fullName.innerText = speakers[i].name;
-  title.innerText = speakers[i].professional;
-  description.innerText = speakers[i].desctiption;
+  document.querySelector('.speakers').appendChild(cardsContainer)
+  photo.src = speakers[i].photo
+  fullName.innerText = speakers[i].name
+  title.innerText = speakers[i].professional
+  description.innerText = speakers[i].desctiption
 }

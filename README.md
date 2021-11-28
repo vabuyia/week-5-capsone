@@ -17,6 +17,12 @@ A responsive design
 
 [Live Demo Link](https://vabuyia.github.io/week-5-capsone/)
 
+
+## Live Video
+
+[Live Video  Link](https://www.loom.com/share/93dcb5930a86419784b85b954fc59c2e?sharedAppSource=personal_library)
+
+
 ## Getting Started
 
 - Clone the repo to your local machine.
